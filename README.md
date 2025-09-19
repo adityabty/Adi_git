@@ -1,8 +1,9 @@
 # 🎵 XMUSIC SUPPORT 🎵
 
-<p align="center">
-  <img src="https://i.ibb.co/gZHvzycT/x.jpg
 
+<p align="center">
+  <img src="https://i.ibb.co/gZHvzycT/x.jpg" />
+</p>
 <div align="center">
   <h1>🎵 X Music Bot 🎵</h1>
   
