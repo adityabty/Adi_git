@@ -1,4 +1,4 @@
-# 🎵 Shruti Music Bot 🎵
+# 🎵 XMUSIC SUPPORT 🎵
 
 <p align="center">
   <img src="ShrutiMusic/assets/equalizer.svg" width="100%" height="500">
