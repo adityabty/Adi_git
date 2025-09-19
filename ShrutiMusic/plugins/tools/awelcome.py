@@ -123,11 +123,7 @@ async def greet_new_members(_, member: ChatMemberUpdated):
             if user.id == OWNER_ID or user.id == 7574330905:
                 owner_welcome_text = f"""🌟 <b>𝐓ʜᴇ ᴏᴡɴᴇʀ ʜᴀs ᴀʀʀɪᴠᴇᴅ</b> 🌟
 
-🔥 <b>ʙᴏss</b> {user.mention} <b>ʜᴀs ᴊᴏɪɴᴇᴅ!</b> 🔥
-👑 <b>ᴏᴡɴᴇʀ ɪᴅ:</b> {user.id} ✨
-🎯 <b>ᴜsᴇʀɴᴀᴍᴇ:</b> @{user.username} 🚀
-👥 <b>ᴛᴏᴛᴀʟ ᴍᴇᴍʙᴇʀs:</b> {count} 📈
-🏰 <b>ɢʀᴏᴜᴘ:</b> {chat_name} 
+
 
 <b>ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛʜɪs ᴋɪɴɢᴅᴏᴍ, ʙᴏss ! 👑✨</b>"""
                 await asyncio.sleep(3)
@@ -135,10 +131,7 @@ async def greet_new_members(_, member: ChatMemberUpdated):
             else:
                 welcome_text = f"""⛳️ <b>𝐖ᴇʟᴄᴏᴍᴇ 𝐓ᴏ 𝐎ᴜʀ 𝐆ʀᴏᴜᴘ</b> ⛳️
 
-➤ <b>𝐍ᴀᴍᴇ 🖤 ◂⚚▸</b> {user.mention} 💤 ❤️
-➤ <b>𝐔ꜱᴇʀ 𝐈ᴅ 🖤 ◂⚚▸</b> {user.id} ❤️🧿
-➤ <b>𝐔ꜱᴇʀɴᴀᴍᴇ 🖤 ◂⚚▸</b> @{user.username} ❤️🌎
-➤ <b>𝐌ᴇᴍʙᴇʀs 🖤 ◂⚚▸</b> {count} ❤️🍂"""
+
                 await asyncio.sleep(3)
                 await userbot.send_message(chat_id, text=welcome_text)
     except Exception as e:
